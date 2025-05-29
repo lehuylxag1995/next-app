@@ -1,3 +1,6 @@
+import Footer from '@/components/layouts/shop/footer'
+import Header from '@/components/layouts/shop/header'
+
 export default function AdminLayout({
   children
 }: {
@@ -5,8 +8,9 @@ export default function AdminLayout({
 }) {
   return (
     <div>
-      <header>Layout Shop</header>
+      <Header></Header>
       <main>{children}</main>
+      <Footer></Footer>
     </div>
   )
 }
