@@ -9,7 +9,7 @@ export default function AdminLayout({
   return (
     <div>
       <Header></Header>
-      <main>{children}</main>
+      <main className="mt-40">{children}</main>
       <Footer></Footer>
     </div>
   )

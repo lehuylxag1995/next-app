@@ -1,10 +1,11 @@
-import { Button } from '@/components/ui/button'
+import Banner from '@/app/(shop)/trang-chu/components/banner'
+import Feature from '@/app/(shop)/trang-chu/components/feature'
 
 export default function HomePage() {
   return (
-    <h1>
-      Đây là trang chủ
-      <Button variant="outline">Button</Button>
-    </h1>
+    <>
+      <Banner />
+      <Feature />
+    </>
   )
 }
